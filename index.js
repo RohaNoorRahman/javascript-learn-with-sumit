@@ -96,3 +96,23 @@ console.log(start);
 
 let end =text6.endsWith('plain');
 console.log(end)
+
+
+//js string template
+
+let country = `Bangladesh`;
+let a =19;
+let b =1;
+let stringliterel =`My country name is ${country} , and here we live in ${a-b} corer people`;
+console.log(stringliterel);
+
+
+let literel =`i love him
+                her name is Noor
+                i know he don't like me 
+                but still i love him and i will be love him`;
+console.log(literel);
+
+let header ="Templates literals";
+let html = `<h1>${header}</h1>`;
+document.write(html);
