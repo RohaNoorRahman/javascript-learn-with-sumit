@@ -62,4 +62,37 @@ let chart =text3.charCodeAt(3);
 console.log(chart)
 
 let split = text3.split(' ');
-console.log(split)
+console.log(split);
+
+
+//javascript search methods
+
+let text6 = 'The rain in SPAIN stays mainly in the plain'
+
+let indexOF =text6.indexOf('ain');
+console.log(indexOF);
+
+let lastIndex = text6.lastIndexOf('ain');
+console.log(lastIndex);
+
+let search = text6.search('ain');
+console.log(search);
+
+let match = text6.match(/ain/g);
+
+console.log(match);
+
+let matchAll = text6.matchAll('ain');
+console.log(matchAll);
+
+let include = text6.includes('rain');
+console.log(include);
+
+let start = text6.startsWith('The');
+console.log(start);
+
+text6.startsWith('rain',4);
+console.log(start);
+
+let end =text6.endsWith('plain');
+console.log(end)
